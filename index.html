@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Pop Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header class="h-screen flex flex-col justify-center items-center relative overflow-hidden">
+        <h1 class="hero-title">Interactive<br>Pop Portfolio</h1>
+        <p class="hero-subtitle mt-4 text-xl font-bold">Web Designer / Developer</p>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="arrow">↓</div>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-4">
+        
+        <section class="section about py-20" id="about">
+            <h2 class="section-title mb-10">01. About</h2>
+            <div class="content-card bg-white p-8 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+                <p class="text-lg leading-relaxed">
+                    2019年にwebデザインスクールを卒業し、webデザイナーとして就業しております。<br>大学のHPの運営、サイト制作から、通信社でニュースサイトの制作に携わってきました。<br>Webデザインとコーディング、動画編集やアニメーションやbanner制作をしています。ポップなものからニュースサイトなどのシリアスなデザインから実装まで、一貫したクリエイティブワークを心がけています。
+                </p>
+            </div>
+        </section>
+
+        <section class="section work py-20" id="work">
+            <h2 class="section-title mb-10">02. Work Introduction</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                
+                <div class="work-card group">
+                    <div class="bg-white border-4 border-black p-6 h-full transition-transform transform group-hover:-translate-y-2 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] group-hover:shadow-[16px_16px_0px_0px_rgba(0,0,0,1)]">
+                        <div class="badge bg-black text-white inline-block px-2 py-1 mb-4 text-sm font-bold">WEBSITE</div>
+                        <h3 class="text-2xl font-bold mb-2">website</h3>
+                        <p class="mb-4 text-gray-600">AIを活用したインタラクティブサイトや世界情勢、こども向け工作サイトシリーズなど様々なテーマを制作 <br>id:shiodome<br>pass:yurikamome </p>
+                            
+                            <div id="sec">
+                            <ul>
+                                <li>
+                                    <a href="https://sandbox.kyodo.media/ssl/demo/pc.html?sjkd_page=cont_KA68ccd737c2c52_KA695dfecec1928">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">「YONTAKU AI」</p>
+                                        <img class="sec_li_img" src="/img/yontaku_AI.jpg" alt="">
+                                        <p>AIが作るクイズサイト</p>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://sandbox.kyodo.media/ssl/demo/pc.html?sjkd_page=list_KA65dd388d4bb8d">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">りんぺい先生の作って遊んでサイエンス」シリーズ</p>
+                                        <img class="sec_li_img" src="img/65dd388d4bb8d.jpg" alt="">
+                                        <p>子ども向け工作サイト</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://sandbox.kyodo.media/ssl/demo/pc.html?sjkd_page=cont_KA6721a8dded758_KA6721a7dc2c77d">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">「モンゴル」</p>
+                                        <img class="sec_li_img" src="img/mongolia_400.jpg" alt="">
+                                        <p>ナーダムリポートサイト</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://sandbox.kyodo.media/ssl/demo/pc.html?sjkd_page=cont_KA6757d63bd456b_KA6757d4b7e1e61">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">「感染症ウォッチャー」</p>
+                                        <img class="sec_li_img" src="img/6757d63bd456b.jpg" alt="">
+                                        <p>感染症の流行と最新データの情報サイト</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://sandbox.kyodo.media/ssl/demo/pc.html?sjkd_page=cont_KA676a5b66e7f92_KA677cda4ee51fe">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">「どうなるアメリカ？識者に聞いた」</p>
+                                        <img class="sec_li_img" src="img/presidential_election03.jpg" alt="">
+                                        <p>トランプ政権について識者のインタビューリポートサイト</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://sandbox.kyodo.media/ssl/demo/pc.html?sjkd_page=cont_KA6943af5350a33_KA6943af6901527">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">「各党はどう動いたか」</p>
+                                        <img class="sec_li_img" src="img/2025_kakutou_top02.jpg" alt="">
+                                        <p>2025年臨時国会の振り返り・分析サイト</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            </div>
+
+
+
+
+
+
+
+                        <a href="https://sandbox.kyodo.media/ssl/demo/pc.html?sjkd_page=cont_KA674e7edd0f22a_KA6938f7d8981f0" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">戦争の実相「特攻と学徒兵」イラスト</a>
+                        <a href="https://digital.kyodonews.jp/static/feature_balloon_bomb/index.html" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">「女学生たちの太平洋戦争」アート</a>
+                        <a href="https://sandbox.kyodo.media/ssl/demo/pc.html?sjkd_page=cont_KA695f6a23a45c9_KA695f6a8c51887" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">台湾有事シュミレーション「台湾CRISIS」イラスト</a>
+                        
+                    </div>
+                </div>
+
+                <div class="work-card group">
+                    <div class="bg-white border-4 border-black p-6 h-full transition-transform transform group-hover:-translate-y-2 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] group-hover:shadow-[16px_16px_0px_0px_rgba(0,0,0,1)]">
+                        <div class="badge bg-black text-white inline-block px-2 py-1 mb-4 text-sm font-bold">ILLUSTRATION</div>
+                        <h3 class="text-2xl font-bold mb-2">Pop Art Collection</h3>
+                        <p class="mb-4 text-gray-600">色彩豊かなデジタルイラストレーション、banner作品集</p>
+
+                        <p class="mb-1 text-gray-600" style="margin-top: 1em;">【ILLUSTRATION】</p>
+
+                           <div id="sec">
+                            <ul>
+                                <li>
+                                    <a href="/img/2soldiers.png">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">Special attack and student soldiers illustration</p>
+                                        <img class="sec_li_img" src="img/2soldiers.png" alt="">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/img/type_97_fighter jet_skeleton.png">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">Type 97 fighter jet_Illustrated illustration</p>
+                                        <img class="sec_li_img" src="/img/type_97_fighter jet_skeleton.png" alt="">
+                                    </a>
+                                </li>
+
+                                                                <li>
+                                    <a href="/img/ouka.png">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">Cherry blossom illustration</p>
+                                        <img class="sec_li_img" src="/img/ouka.png" alt="">
+                                    </a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a href="/img/Cherry_blossoms of_round_parts.png">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">Milan Cortina Paralympic Illustration</p>
+                                        <img class="sec_li_img" src="/img/mirapara.png" alt="">
+                                    </a>
+                                </li>
+                                                                                                                <li>
+                                    <a href="/img/robo04.png">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">YONTAKU AI character design</p>
+                                        <img class="sec_li_img" src="/img/robo04.png" alt="">
+                                    </a>
+                                </li>
+                                                               <li>
+                                    <a href="/img/4people.png">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">4 politicians</p>
+                                        <img class="sec_li_img" src="/img/4people.png" alt="">
+                                    </a>
+                                </li>
+
+                            </ul>
+                            </div>
+
+
+
+
+
+
+                        <a href="/img/gada_04_08.jpg" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">ガダルカナル島の戦いイラスト</a>
+                        <a href="/img/womans.png" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">ガダルカナル島の戦いイラスト</a>
+                        <a href="/img/2monsters.jpg" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">
+Illustrations of monsters</a>
+                        
+                        
+                        <!--<span class="text-gray-400">Coming Soon</span>-->
+                    </div>
+                </div>
+
+                <div class="work-card group">
+                    <div class="bg-white border-4 border-black p-6 h-full transition-transform transform group-hover:-translate-y-2 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] group-hover:shadow-[16px_16px_0px_0px_rgba(0,0,0,1)]">
+                        <div class="badge bg-black text-white inline-block px-2 py-1 mb-4 text-sm font-bold">BANNER/ VIDEO / ANIME</div>
+                        <h3 class="text-2xl font-bold mb-2">Motion Graphics</h3>
+                        <p class="mb-4 text-gray-600">ファーストビューで惹きつけるbanner、Webサイトを彩るショートアニメーション</p>
+                        <p class="mb-1 text-gray-600">【banner】</p>
+
+                    <div id="sec">
+                            <ul>
+                                <li>
+                                    <a href="/img/yontaku_AI.jpg">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">yontaku_AI banner</p>
+                                        <img class="sec_li_img" src="/img/yontaku_AI.jpg" alt="">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/img/top05.jpg">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">3 years since the invasion of Ukraine banner</p>
+                                        <img class="sec_li_img" src="/img/top05_02.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/img/konton_gorin_top.jpg">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">The Olympics at the mercy of banner</p>
+                                        <img class="sec_li_img" src="/img/konton_gorin_top_02.jpg" alt="">
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="/img/konton_war_top.jpg">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">war and expression</p>
+                                        <img class="sec_li_img" src="/img/konton_war_top_02.png" alt="">
+                                    </a>
+                                </li>
+                                </li>
+                                <li>
+                                    <a href="/img/right_04.jpg">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">rightward trend</p>
+                                        <img class="sec_li_img" src="/img/right_04_02.png" alt="">
+                                    </a>
+                                </li>
+                                                                                                                <li>
+                                    <a href="/img/2025_vital_statistics_top.jpg">
+                                        <span class="fa fa-code"></span>
+                                        <p class="title01">グラフィックで見る人工動態統計banner</p>
+                                        <img class="sec_li_img" src="/img/2025_vital_statistics_top_02.png" alt="">
+                                    </a>
+                                </li>
+
+                            </ul>
+                            </div>
+
+
+
+                            <a href="/img/2025_kakutou_top.jpg" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">各党はどう動いたかbanner</a>
+                            <a href="/img/first_statementtop (1).jpg" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">分析 党首第一声</a>
+                     <p class="mb-1 text-gray-600" style="margin-top: 1em;">【VIDEO/ ANIME】 <br>「りんぺい先生の作って遊んでサイエンス」animation video</p>
+                        <a href="/mov/snowdome_opening02 1.mp4" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">View Project01 -></a>
+                        <a href="/mov/pet_opening_1002.mp4" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">View Project02 -></a>
+                        <a href="/mov/opening02.mp4" class="inline-block border-b-2 border-black hover:bg-black hover:text-white transition-colors">View Project03 -></a>
+                        
+                        <!--<span class="text-gray-400">Coming Soon</span>-->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section skill py-20 mb-20" id="skill">
+            <h2 class="section-title mb-10">03. Skill</h2>
+            <div class="bg-white border-4 border-black p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+                <ul class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <li class="skill-item py-4 border-2 border-black font-bold hover:bg-black hover:text-white transition-colors">HTML5</li>
+                    <li class="skill-item py-4 border-2 border-black font-bold hover:bg-black hover:text-white transition-colors">CSS3 / Tailwind</li>
+                    <li class="skill-item py-4 border-2 border-black font-bold hover:bg-black hover:text-white transition-colors">JavaScript</li>
+                    <li class="skill-item py-4 border-2 border-black font-bold hover:bg-black hover:text-white transition-colors">Design Tools</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="text-center py-10 font-bold">
+        <p>&copy; 2024 Interactive Pop Portfolio</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
