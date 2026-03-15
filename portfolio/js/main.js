@@ -1,5 +1,16 @@
 // GSAPプラグインの登録
 gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrambleTextPlugin) 
+
+gsap.to(".scrambleText", {
+  duration: 2, 
+  scrambleText: {
+    text: "Hello. New text.",
+  }
+});
+
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
     
