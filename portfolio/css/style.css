@@ -75,10 +75,10 @@ h2.section-title {
 }
 #sec ul li {
     padding: 20px 5px;
-    width: 80%;
-    background: #f4ee8bba;
+    width: 320px;
+    background: #e4dc97ba;
     transition: box-shadow 0.3s;
-    border: solid 3px #ffffff;
+    border: solid 3px #7b7b7b;
     margin: 0.5em;
     border-radius: 5px;
 }
@@ -218,5 +218,7 @@ h2.section-title {
 }
 
 .border-black {
-  border-color: rgb(82 82 82);
+    --tw-border-opacity: 1;
+    border-color: rgb(127 127 127);
+    border-radius: 5px;
 }
